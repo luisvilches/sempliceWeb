@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Semplice - Framework</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1>Semplice</h1>
+						<p>Api Restful Framework</p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Get Started</a></li>
+							<li><a href="#first">Features</a></li>
+							<li><a href="#second">Usage</a></li>
+							<li><a href="#cta">About of Semplice</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2 style="text-align: center;">Get Started</h2>
+										</header>
+										<p style="text-align: center;">Add Semplice as a global dependency.</p>
+										<p style="text-align: center;"><span style="border: 1px solid #ccc;padding: 5px 30px;border-radius: 5px;text-align: center;">$ sudo npm install -g semplice-cli</span></p>
+									</div>
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Features</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="icon major style5 fa-fighter-jet"></span>
+										<h3>Rapid application development</h3>
+										<p>With the automation of the default tasks, your project can be developed faster, and with the use of these default values, your other developers can adapt to the code of others more quickly.</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-cloud"></span>
+										<h3>Integrated Socket.IO</h3>
+										<p>You will be able to use socket.io wherever you want. So you can bind your own events in your own components.</p>
+									</li>
+									<li>
+										<span class="icon major style5 fa-cogs"></span>
+										<h3>Component config</h3>
+										<p>We allow you to set basic information into a component config so you don't have to write a complete object to override a simple variable.</p>
+									</li>
+								</ul>
+								
+							</section>
+
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>Usage</h2>
+									<p>The sempli generator will take care of, among other things,<br> create a new project, generate models and controllers.</p>
+								</header>
+								
+								<h2>create new project</h2>
+								<p>semplice allows you to create projects quickly and easily</p>
+								<pre style="border: 1px solid #ccc;border-radius: 5px;">$ semplice new < name-project ></pre>
+								<p>example: <br> $ semplice new blog</p>
+								<hr>
+								<br>
+								
+								<h2>generate new controller</h2>
+								<p>semplice allows you to create controllers quickly and easily</p>
+								<pre style="border: 1px solid #ccc;border-radius: 5px;">$ semplice generate controller < name-controller ></pre>
+								<p>example: <br>$ semplice generate controller main <br> or <br> $ semplice g controller main</p>
+								<hr>
+								<br>
+
+								<h2>generate new model</h2>
+								<p>semplice allows you to create models quickly and easily</p>
+								<pre style="border: 1px solid #ccc;border-radius: 5px;">$ semplice generate model < name-model > < modelSchema ></pre>
+								<p>example: <br> $ semplice generate model user <span style="font-weight: bold;">name:String,age:Number</span> <br> or <br> $ semplice g model user <span style="font-weight: bold;">name:String,age:Number</span></p>
+								<hr>
+								<br>
+								
+								<h2>generate all</h2>
+								<p>semplice allows you to create a model, its controller and add the basic routes quickly and easily
+								</p>
+								<pre style="border: 1px solid #ccc;border-radius: 5px;">$ semplice generate model < name-all > < modelSchema ></pre>
+								<p>example: <br> $ semplice generate all post <span style="font-weight: bold;">title:String,content:String</span> <br> or <br> $ semplice g all post <span style="font-weight: bold;">title:String,content:String</span></p>
+								<hr>
+								
+								
+							</section>
+
+						<!-- Get Started -->
+							<section id="cta" class="main special">
+								<header class="major">
+									<h2>About of Semplice</h2>
+									<p style="text-align: left;">Semplice is a framework based on expressjs oriented to api restful, semplice allows you to create developments quickly.
+										
+										Semplice incorporates several functionalities and integrated modules to facilitate the developer.
+										
+										Some of the functionalities and modules that are currently integrated:</p> <br>
+
+										<ul style="text-align: left;">
+											<li>sending of mails</li>
+											<li>sockets < socket.io > </li>
+											<li>uploads of files</li>
+											<li>authentication by tokens</li>
+											<li>GeoSchema</li>
+										</ul>
+
+										<br>
+
+										<p style="text-align: left;">among many more.</p>
+								</header>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!--section>
+							<h2>Aliquam sed mauris</h2>
+							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
+							<ul class="actions">
+								<li><a href="generic.html" class="button">Learn More</a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>Etiam feugiat</h2>
+							<dl class="alt">
+								<dt>Address</dt>
+								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+								<dt>Phone</dt>
+								<dd>(000) 000-0000 x 0000</dd>
+								<dt>Email</dt>
+								<dd><a href="#">information@untitled.tld</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section-->
+						<p class="copyright">&copy; Semplice Framework. 2017</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
