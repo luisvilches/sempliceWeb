@@ -2356,7 +2356,7 @@
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #CF4647;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -3235,8 +3235,8 @@
 		background-color: #ffffff;
 		color: #636363;
 		position: absolute;
-		width: 64em;
-		max-width: calc(100% - 4em);
+		width: 100%;
+		max-width: 100%;
 		padding: 1em;
 		background-color: #f7f7f7;
 		border-top-left-radius: 0.25em;
@@ -3353,7 +3353,7 @@
 	#main {
 		background-color: #ffffff;
 		color: #636363;
-		border-radius: 0.25em;
+		border-radius: 0px;
 	}
 
 		#main input, #main select, #main textarea {
@@ -3528,7 +3528,7 @@
 		}
 
 		#main .icon.major {
-			border-color: #dddddd;
+			border-color: #CF4647;
 		}
 
 			#main .icon.major:before {
@@ -3557,11 +3557,11 @@
 		}
 
 		#main header.major h2:after {
-			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-color: #CF4647;
+			/*background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);*/
 		}
 
 		#main table tbody tr {
@@ -3593,7 +3593,7 @@
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 5em 5em;
 			border-top: solid 1px #dddddd;
 		}
 
@@ -3773,17 +3773,19 @@
 		}
 
 /* Wrapper */
-
+	pre{
+		overflow-x: auto !important;
+	}
 	#wrapper {
-		width: 64em;
-		max-width: calc(100% - 4em);
+		width: 100%;
+		max-width: 100%;
 		margin: 0 auto;
 	}
 
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
-				max-width: calc(100% - 2em);
+				max-width: 100%;
 			}
 
 		}
